@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const numero = Math.floor(Math.random() * 6) + 1;
         const mensagem =
             (numero === 2 || numero === 4)
-                ? 'Parabéns, você ganhou um brinde!'
-                : 'Que pena, não foi dessa vez!';
+                ? 'Que pena, tente novamente!'
+                : 'Parabéns, retire seu brinde!';
 
         // Cria resultado do zero
         const resultado = document.createElement('div');
